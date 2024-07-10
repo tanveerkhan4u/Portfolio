@@ -6,8 +6,8 @@ function App() {
 
   return (
     <>
-     <div className='container'>
-      <h1 className='text-5xl'>ebdaskjfbh cjew</h1>
+     <div className='bg-slate-900'>
+      <h1 >ebdaskjfbh cjew</h1>
      </div>
     </>
   )
