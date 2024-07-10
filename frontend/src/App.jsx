@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-     <h1>oijkrjsdfnbc skj</h1>
+     <h1 className='text-4xl'>oijkrjsdfnbc skj</h1>
     </>
   )
 }
