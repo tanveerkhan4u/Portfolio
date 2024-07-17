@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import Nav from './Components/Nav'
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
      <div className='bg-slate-900'>
-      <h1 >ebdaskjfbh cjew</h1>
+      <Nav />
      </div>
     </>
   )
