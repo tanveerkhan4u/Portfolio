@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import Nav from './Components/Nav'
+import Banner from './Components/Banner'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
      <div className='bg-slate-900'>
       <Nav />
+      <Banner />
      </div>
     </>
   )

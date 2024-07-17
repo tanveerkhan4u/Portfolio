@@ -1,11 +1,11 @@
-
-
 const About = () => {
   return (
-    <div>
+    <div id="About" className="">
       
     </div>
   )
 }
 
 export default About
+
+
