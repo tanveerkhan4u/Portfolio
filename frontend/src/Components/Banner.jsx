@@ -3,12 +3,13 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import pic from '../images/pic.jpeg'
 
 
 
 const Banner = () => {
   return (
-    <div className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center ">
+    <div className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center ">
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white ">
         <h1 className="text-[52px] font-semibold mb-8 leading-normal">Welcome To <span className="text-fuchsia-500 ">My Portfolio</span></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eveniet accusamus quis ipsum eum debitis repellat ducimus, explicabo sunt tempore, natus enim ad accusantium, minus aperiam corporis commodi optio saepe!</p>
@@ -32,7 +33,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <img src="" width={290} height={290} className="" alt="" />
+      <img src={pic} width={290} height={290} className="rounded-full border-2 p-1 border-fuchsia-500 pic_glow" alt="" />
     </div>
   )
 }
