@@ -9,7 +9,7 @@ const port = 5000;
 
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://portfolio-kov7.onrender.com']
+  origin: 'http://localhost:5173', 
 }));
 
 app.use('/contact', ContactRouter);
