@@ -23,7 +23,7 @@ const Contact = () => {
     onSubmit: async (values, {setSubmitting, resetForm}) => {
       console.log(values);
       setSubmitting(true);
-      const res = await fetch(`${import.meta.env.VITE_API_URL}/contact/getall`,{
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/contact/add`,{
         method: 'POST',
         body:JSON.stringify(values),
         headers: {
