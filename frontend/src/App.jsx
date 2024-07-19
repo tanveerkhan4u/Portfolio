@@ -3,8 +3,8 @@ import Banner from './Components/Banner'
 import About from './Components/About'
 import Services from './Components/Services'
 import Projects from './Components/Projects'
-import Footer from './Components/Footer'
 import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 import { SnackbarProvider } from 'notistack'
 
 const App = () => {
@@ -19,8 +19,8 @@ const App = () => {
       <About />
       <Services />
        <Projects />
-       <Footer />
        <Contact />
+       <Footer />
         </SnackbarProvider>
 
      </div>

@@ -21,3 +21,72 @@
 .b_glow{
   box-shadow: 0 0 15px rgb(206, 71, 193);
 }
+@media screen and (max-width: 1024px) {
+  .pro {
+      margin-left: -20px;
+  } 
+  .pro1{
+    margin-left: 100px;
+  }
+  .email{
+    margin-left: -20px;
+  }
+  .logo{
+    margin-left: 100px;
+    
+  
+  }
+}
+@media screen and (max-width: 820px) {
+  .pro {
+    margin-left: 50px;
+  
+} 
+.luck{
+  margin-top: 80px;
+  margin-left: 50px;
+  
+} 
+.email{
+  margin-left: 50px;
+  /* margin-top: 70px; */
+}
+.logo{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+  .pro {
+    margin-left: 10px;
+    
+  
+} 
+.luck{
+  margin-top: 15px;
+  margin-left: 15px;
+  
+} 
+.email{
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.logo{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.pro1{
+  margin-left: 15px;
+}
+.logo{
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+}
+
+  
+    
+
