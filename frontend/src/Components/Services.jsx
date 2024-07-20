@@ -36,21 +36,11 @@ const Services = () => {
           <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-sky-500'>
             ReactJS
           </div>
-          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer'>
-            NextJS
-          </div>
-          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-neutral-500'>
-            Solidity
-          </div>
-          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-orange-500'>
-            Firebase
-          </div>
+          
           <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-green-400'>
             Mongodb
           </div>
-          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-blue-500'>
-            Typescript
-          </div>
+          
         </Marquee>
       </div>
       
