@@ -3,7 +3,7 @@ import { enqueueSnackbar } from 'notistack';
 import { useFormik } from 'formik';
 
 const ContactSchema = Yup.object().shape({
-  name: Yup.string().required('Name is Required').min(4, 'Name is too short'),
+  name: Yup.string().required('Name is Require').min(4, 'Name is too short'),
   email: Yup.string().email('email is invalid').required(' Required'),
   Message: Yup.string().required('Message is Required').min(20, 'Message is too short')
 
