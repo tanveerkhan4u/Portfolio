@@ -5,12 +5,12 @@ const ContactRouter = require('./router/contactRouter');
 const cors = require ('cors')
 
 const app = express();
-const port = 5000;
+const port = 5500;
 
 app.use(express.json());
 app.use(cors({
   origin: "http://localhost:5173", 
-  credentials: true
+  
 }));
 
 app.use('/contact', ContactRouter);
