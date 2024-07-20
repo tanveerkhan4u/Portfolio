@@ -1,20 +1,60 @@
-
+import Marquee from 'react-fast-marquee';
 
 const Services = () => {
   return (
     <div  id="Services" className="p-20 flex flex-col items-center justify-center ">
-      <h1 data-aos="fade-right" className="text-[52px] font-semibold leading-normal uppercase text-fuchsia-800 ">Services</h1>
-      <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 justify-around gap-20 py-10">
-        <h2 data-aos="fade-up" className="text-[26px] flex items-center justify-center font-senibold  text-fuchsia-800 rounded-3xl h-36 w-44 border-2 border-fuchsia-800 b_glow">HTML</h2>
-        <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-senibold  text-fuchsia-800 rounded-3xl h-36 w-44 border-2 border-fuchsia-800 b_glow">CSS</h2>
-        <h2 data-aos="fade-up" className="text-[26px] flex items-center justify-center font-senibold  text-fuchsia-800 rounded-3xl h-36 w-44 border-2 border-fuchsia-800 b_glow">Bootstrap</h2>
-        <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-senibold  text-fuchsia-800 rounded-3xl h-36 w-44 border-2 border-fuchsia-800 b_glow">Tailwind CSS</h2>
-        <h2 data-aos="fade-up" className="text-[26px] flex items-center justify-center font-senibold  text-fuchsia-800 rounded-3xl h-36 w-44 border-2 border-fuchsia-800 b_glow">Javascript</h2>
-        <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-senibold  text-fuchsia-800 rounded-3xl h-36 w-44 border-2 border-fuchsia-800 b_glow">React</h2>
-        <h2 data-aos="fade-up" className="text-[26px] flex items-center justify-center font-senibold  text-fuchsia-800 rounded-3xl h-36 w-44 border-2 border-fuchsia-800 b_glow">Express</h2>
-        <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-senibold  text-fuchsia-800 rounded-3xl h-36 w-44 border-2 border-fuchsia-800 b_glow">NodeJs</h2>
-        <h2 data-aos="fade-up" className="text-[26px] flex items-center justify-center font-senibold  text-fuchsia-800 rounded-3xl h-36 w-44 border-2 border-fuchsia-800 b_glow">MongoDB</h2>
+      <h1 data-aos="fade-right" className="text-[52px] font-semibold leading-normal uppercase text-fuchsia-800 ">Skills</h1>
+      
+      <div className='container'>
+        <h1 className='text-2xl text-center text-white lg:mb-10 mb-5 '>
+        These are the technologies I've worked with. I'm always looking to learn new things and improve my skills.
+        </h1>
+        
       </div>
+      <div className='container'>
+      <Marquee autoFill pauseOnClick>
+          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-sky-400'>
+            Tailwind CSS
+          </div>
+          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-purple-700'>
+            Bootstrap
+          </div>
+          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-orange-700'>
+            HTML
+          </div>
+          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-sky-500'>
+            CSS
+          </div>
+          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-yellow-500'>
+            Javascript
+          </div>
+          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-green-500'>
+            Node JS
+          </div>
+        </Marquee>
+        <Marquee autoFill pauseOnClick direction='rigth'>
+          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-sky-500'>
+            ReactJS
+          </div>
+          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer'>
+            NextJS
+          </div>
+          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-neutral-500'>
+            Solidity
+          </div>
+          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-orange-500'>
+            Firebase
+          </div>
+          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-green-400'>
+            Mongodb
+          </div>
+          <div className='bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-blue-500'>
+            Typescript
+          </div>
+        </Marquee>
+      </div>
+      
+
     </div>
   )
 }
