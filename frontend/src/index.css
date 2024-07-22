@@ -7,19 +7,19 @@
   transition: all 0.3s ease-in-out;
 }
 .glow:hover{
-  box-shadow: 0 0 25px rgb(206, 71, 193); 
+  box-shadow: 0 0 25px #638ed4; 
 }
 .pic_glow{
-  box-shadow: 0 0 55px rgb(206, 71, 193);
+  box-shadow: 0 0 55px #638ed4;
 }
 .neno-button{
   transition: all 0.3s ease-in-out;
 }
 .neno-button:hover{
-  box-shadow: 0 0 15px rgb(206, 71, 193);
+  box-shadow: 0 0 15px #638ed4;
 }
 .b_glow{
-  box-shadow: 0 0 15px rgb(206, 71, 193);
+  box-shadow: #638ed4;
 }
 @media screen and (max-width: 1024px) {
   .pro {

@@ -56,7 +56,7 @@ const Contact = () => {
         
       
         <textarea className="w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-white" placeholder="Write Your Message..." onChange={ContactForm.handleChange} value={ContactForm.values.Message} name="" id="Message" cols="20" rows="10"></textarea>
-        <button className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 border-fuchsia-800 bg-fuchsia-800  hover:bg-slate-900 rounded-lg py-4 px-8 uppercase relative overflow-hidden bg-glow text-xl text-bold my-6" type="submit">Submit</button>
+        <button className="neno-button shadow-xl hover:shadow-[#638ed4] text-white border-2 border-[#638ed4] bg-[#638ed4]  hover:bg-[#638ed4] rounded-lg py-4 px-8 uppercase relative overflow-hidden bg-glow text-xl text-bold my-6" type="submit">Submit</button>
       </form>
     </div>
   )
