@@ -3,7 +3,7 @@ import Marquee from 'react-fast-marquee';
 const Services = () => {
   return (
     <div  id="Services" className="p-20 flex flex-col items-center justify-center ">
-      <h1 data-aos="fade-right" className="text-[52px] font-semibold leading-normal uppercase text-fuchsia-800 ">Skills</h1>
+      <h1 data-aos="fade-right" className="text-[52px] font-semibold leading-normal uppercase text-[#638ed4] ">Skills</h1>
       
       <div className='container'>
         <h1 className='text-2xl text-center text-white lg:mb-10 mb-5 '>

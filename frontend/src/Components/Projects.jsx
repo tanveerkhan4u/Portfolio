@@ -6,7 +6,7 @@ import hand from "../images/hand.png";
 const Projects = () => {
   return (
     <div id="Projects" className="p-20 flex flex-col items-center  justify-center ">
-      <h1 data-aos="fade-right" className="text-[52px] font-semibold leading-normal uppercase text-fuchsia-800">projects</h1>
+      <h1 data-aos="fade-right" className="text-[52px] font-semibold leading-normal uppercase text-[#638ed4]">projects</h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-around gap-20 py-10">
     
         <a href="https://sunserviceslucknow.com/">

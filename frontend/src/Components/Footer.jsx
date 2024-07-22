@@ -13,23 +13,23 @@ const Footer = () => {
           <p className='lg:mt-5 text-[16px] my-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolore commodi recusandae quae. Quidem animi aliquam accusamus, itaque, totam commodi autem eligendi ea saepe quia id. Error nihil excepturi aspernatur.</p>
         </div>
         <div className='lg:ml-20 '>
-          <h2 className='text-4xl font-semibold text-fuchsia-800 uppercase pro' >Contact</h2>
+          <h2 className='text-4xl font-semibold text-[#638ed4] uppercase pro' >Contact</h2>
           <p className='lg:mt-20  luck email'> khantanveer6077@gmail.com</p>
           <p className='email'>+91 6394826676 </p>
         </div>
         <div>
-        <h2 className='mb-4 md:mb-0 uppercase text-4xl font-semibold text-fuchsia-800 pro1'>follow me</h2>
+        <h2 className='mb-4 md:mb-0 uppercase text-4xl font-semibold text-[#638ed4] pro1'>follow me</h2>
         <div className='flex gap-5 lg:mt-20 text-xl logo'>
-          <a href="https://github.com/tanveerkhan4u" className='hover:text-fuchsia-500'>
+          <a href="https://github.com/tanveerkhan4u" className='hover:text-[#638ed4]'>
           <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/mohd-tanveer-khan-b05a63243/" className='hover:text-fuchsia-500'>
+          <a href="https://www.linkedin.com/in/mohd-tanveer-khan-b05a63243/" className='hover:text-[#638ed4]'>
           <FaLinkedin/>
           </a>
-          <a href="https://www.instagram.com/" className='hover:text-fuchsia-500'>
+          <a href="https://www.instagram.com/" className='hover:text-[#638ed4]'>
           <FaInstagram />
           </a>
-          <a href="https://twitter.com/" className='hover:text-fuchsia-500'>
+          <a href="https://twitter.com/" className='hover:text-[#638ed4]'>
           <FaXTwitter />
           </a>
           </div>
