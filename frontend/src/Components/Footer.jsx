@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className='bg-slate-800 text-white lg:px-48 px-4 py-20'>
       <div className='container mx-auto grid grid-cols-1 md:grid-cols-3  gap-4'>
         <div className='mb-4 md:mb-0'>
-          <span><img src={logo} className='h-32  w-64 -mt-5 object-cover' alt="" /></span>
+          <span><img src={logo} className='h-32  w-64 -mt-5 object-cover khan' alt="" /></span>
           <p className='lg:mt-5 text-[16px] my-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolore commodi recusandae quae. Quidem animi aliquam accusamus, itaque, totam commodi autem eligendi ea saepe quia id. Error nihil excepturi aspernatur.</p>
         </div>
         <div className='lg:ml-20 '>
