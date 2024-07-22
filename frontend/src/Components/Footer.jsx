@@ -19,16 +19,16 @@ const Footer = () => {
         <div>
         <h2 className='mb-4 md:mb-0 uppercase text-4xl font-semibold text-fuchsia-800 pro1'>follow me</h2>
         <div className='flex gap-5 lg:mt-20 text-xl logo'>
-          <a href="" className='hover:text-fuchsia-500'>
+          <a href="https://github.com/tanveerkhan4u" className='hover:text-fuchsia-500'>
           <FaGithub />
           </a>
-          <a href="" className='hover:text-fuchsia-500'>
+          <a href="www.linkedin.com/in/mohd-tanveer-khan" className='hover:text-fuchsia-500'>
           <FaLinkedin/>
           </a>
-          <a href="" className='hover:text-fuchsia-500'>
+          <a href="https://www.instagram.com/" className='hover:text-fuchsia-500'>
           <FaInstagram />
           </a>
-          <a href="" className='hover:text-fuchsia-500'>
+          <a href="https://twitter.com/" className='hover:text-fuchsia-500'>
           <FaXTwitter />
           </a>
           </div>
