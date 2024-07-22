@@ -3,6 +3,7 @@ import { FaGithub , FaLinkedin, FaInstagram} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 
+
 const Footer = () => {
   return (
     <footer className='bg-slate-800 text-white lg:px-48 px-4 py-20'>
@@ -22,7 +23,7 @@ const Footer = () => {
           <a href="https://github.com/tanveerkhan4u" className='hover:text-fuchsia-500'>
           <FaGithub />
           </a>
-          <a href="www.linkedin.com/in/mohd-tanveer-khan" className='hover:text-fuchsia-500'>
+          <a href="https://www.linkedin.com/in/mohd-tanveer-khan-b05a63243/" className='hover:text-fuchsia-500'>
           <FaLinkedin/>
           </a>
           <a href="https://www.instagram.com/" className='hover:text-fuchsia-500'>

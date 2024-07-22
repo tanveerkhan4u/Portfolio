@@ -29,7 +29,7 @@ const Banner = () => {
               <AiFillGithub  className="text-[28px]"/>
           
               </a>
-              <a href="www.linkedin.com/in/mohd-tanveer-khan" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+              <a href="https://www.linkedin.com/in/mohd-tanveer-khan-b05a63243/" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
               <FaLinkedinIn  className="text-[28px]"/>
               </a>
               <a href="https://www.instagram.com/" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">

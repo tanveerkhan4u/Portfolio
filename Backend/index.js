@@ -9,8 +9,8 @@ const port = 5500;
 
 app.use(express.json());
 app.use(cors({
-  origin: "http://localhost:5173", 
-  // methods: ['POST', 'GET'],
+  origin: ['http://localhost:5173', 'https://portfolio-gamma-murex-77.vercel.app/'] 
+  
   
 }));
 
