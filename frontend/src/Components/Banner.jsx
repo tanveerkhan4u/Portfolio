@@ -12,6 +12,10 @@ import { ReactTyped } from "react-typed";
 const stringsToRender = [
   'Full Stack Web Developer',
 ];
+ 
+const stringsToRender1 = [
+  'Mohd Tanver Khan',
+];
 
 
 const Banner = () => {
@@ -27,7 +31,9 @@ const Banner = () => {
   return (
     <div  className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center ">
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white ">
-        <h1 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal uppercase">mohd tanveer khan</h1>
+        <h1 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal uppercase">
+        <ReactTyped  strings={stringsToRender1} typeSpeed={80}  backSpeed={50} loop />
+        </h1>
         <h4 className="text-3xl mb-10 text-white font-semibold b_glow">
         I'm {' '}
         <ReactTyped  strings={stringsToRender} typeSpeed={80}  backSpeed={50} loop />
