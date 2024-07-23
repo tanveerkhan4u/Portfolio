@@ -35,7 +35,7 @@ const Banner = () => {
         I'm {' '}
         <ReactTyped  strings={stringsToRender} typeSpeed={80} className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-800 " backSpeed={50} loop />
         </h4>
-        <p data-aos="fade-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eveniet accusamus quis ipsum eum debitis repellat ducimus, explicabo sunt tempore, natus enim ad accusantium, minus aperiam corporis commodi optio saepe!</p>
+        <p data-aos="fade-left">I believe in a user-centric approach to development, ensuring that every application I build is intuitive, responsive, and user-friendly.</p>
         <div className="flex mt-8 gap-2 ">
           <div className="flex items-center justify-center ">
             <div className="flex space-x-2 ">

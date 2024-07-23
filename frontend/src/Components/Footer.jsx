@@ -10,7 +10,7 @@ const Footer = () => {
       <div className='container mx-auto grid grid-cols-1 md:grid-cols-3  gap-4'>
         <div className='mb-4 md:mb-0'>
           <span><img src={logo} className='h-32  w-64 -mt-5 object-cover khan' alt="" /></span>
-          <p className='lg:mt-5 text-[16px] my-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolore commodi recusandae quae. Quidem animi aliquam accusamus, itaque, totam commodi autem eligendi ea saepe quia id. Error nihil excepturi aspernatur.</p>
+          <p className='lg:mt-5 text-[16px] my-4'>Thank you for visiting my portfolio! I hope you enjoyed exploring my work and learning about my journey as a Full Stack Web Developer. If you have any questions, project inquiries, or just want to say hello, feel free to reach out. Let's build something amazing together!</p>
         </div>
         <div className='lg:ml-20 '>
           <h2 className='text-4xl font-semibold text-[#638ed4] uppercase pro' >Contact</h2>
